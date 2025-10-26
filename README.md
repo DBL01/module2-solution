@@ -2,7 +2,9 @@
 
 This is the solution to the coding challenge of the course on CSS im doing in Coursera.
 
-In order to facilitate the correction, I attach this README file, with the requirements of the challenge listed and the comments in the code. Those requirements cited in the code are ***adequately highlighted*** 
+In order to facilitate the correction, I attach this README file, with the requirements of the challenge listed and the comments in the code. 
+
+Those requirements cited in the code are ***adequately highlighted*** 
 
 The URL to check the site is: https://dbl01.github.io/module2-solution/.
 
