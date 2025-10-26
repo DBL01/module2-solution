@@ -16,7 +16,7 @@ The URL to check the site is: https://dbl01.github.io/module2-solution/.
 
 - [x] 5. Your page must include a CSS file. No inline styles allowed. Your CSS file should be placed into a `css` folder under the solution container folder, e.g., `module2-solution/css`.
 
-- [x] 6. You are NOT allowed to use any CSS (or Javascript) framework for this assignment, including Twitter Bootstrap CSS Framework. No framework CSS files should even be referenced in your index.html, even if you are not using them. **However, you MAY use the simple responsive framework we developed in Lecture 24 as a starting point for this assignment.**
+- [x] 6. You are NOT allowed to use any CSS (or Javascript) framework for this assignment, including Twitter Bootstrap CSS Framework. No framework CSS files should even be referenced in your index.html, even if you are not using them. However, you MAY use the simple responsive framework we developed in Lecture 24 as a starting point for this assignment.
 
 - [x] 7. You must implement the following breakpoints that will be considered desktop, tablet, and mobile. 
 
