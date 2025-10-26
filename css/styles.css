@@ -1,0 +1,93 @@
+
+* {
+  box-sizing: border-box;   /* 13: border-box for elements sizing */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Narrow";  /* 15.1: font family for all text elements */
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;  /* 15.2: heading 75% larger than base font size */
+}
+
+.row {
+  width: 100%;
+}
+
+
+.menu-section {
+  position: relative;
+  background-color: #ababab; /* 14.1 Grey background for menu sections */
+  border: 1px solid black; /* 14.3 Black border 1px thick */
+  margin: 10px;
+  padding: 10px;
+  padding-top: 50px; /* 13.2 Push text down 50px to avoid title overlap 15px */
+}
+
+
+.section-title {  /* 12.1 Section titles */
+  position: absolute;   /* 12.2 Relative positioning of section titles, upper right */
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  border: 1px solid black;  /* 14.3 Black border 1px thick */
+  border-top: none;
+  border-right: none;
+  font-size: 1.25em;  /* 15.2: Font 25% larger than base font size */
+  font-weight: bold;
+  text-align: center;
+  min-width: 100px;
+}
+
+.section-title.chicken {  /* 12.1 Section titles */
+  background-color: #ff8400; /* 14.1 Orange for Chicken */
+  color: black; /* 14.2 Black text for better readability */
+}
+
+.section-title.beef { /* 12.1 Section titles */
+  background-color: #ff0400; /* 14.2 Red for Beef */
+  color: white; /* 14.2 White text for better readability */
+}
+
+.section-title.sushi {  /* 12.1 Section titles */
+  background-color: #fbff00; /* 14.3 Yellow for Sushi */
+  color: black; /* 14.2 Black text for better readability */
+}
+
+.menu-section p { /* 13.1 Paragraph text styling */
+  margin: 0;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {   /* 7.1, 8.2 Desktop view (992px and above) */
+  .col-lg-4 {
+    float: left;  /* 9.2 Float left for horizontal arrangement */
+    width: 33.33%;  /* 9.1 Each of 3 sections takes = space (33.33%) */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {  /* 7.2, 8.2 Tablet view (768px - 991px) */
+  .col-md-6 {
+    float: left;  /* 9.2 Float left for horizontal arrangement */
+    width: 50%;   /* 10.1 First 2 sections in first row, equal size (50% each) */
+  }
+  .col-md-12 {
+    float: left;  /* 9.2 Float left for horizontal arrangement */  
+    width: 100%;  /* 10.2: Third section in second row takes 100%) */
+  }
+}
+
+@media (max-width: 767px) {   /* 7.3, 8.2 Mobile view (767px and below) */
+  .col-sm-12 {
+    float: left;  /* 9.2 Float left for horizontal arrangement */
+    width: 100%;  /* 11.1: Each section takes up entire row (100%) */
+  }
+}
