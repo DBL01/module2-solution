@@ -4,9 +4,7 @@ This is the solution to the coding challenge of the course on CSS im doing in Co
 
 In order to facilitate the correction, I attach this README file, with the requirements of the challenge listed and the comments in the code. 
 
-Those requirements cited in the code are ***adequately highlighted*** 
-
-The URL to check the site is: https://dbl01.github.io/module2-solution/.
+Those requirements cited in the code are ***adequately highlighted*** in the code archives (/main/index.html; /main/css/styles.css)and the URL to check the site is: https://dbl01.github.io/module2-solution/.
 
 - [x] 1. Create a GitHub.com account and a repository that you will use for this class.
 
